@@ -5,9 +5,9 @@ import sys
 
 while True:
      print("Would you like to:\n1. Generate Vcards\n2. End Program")
-     main_opt = int(input("Your Choice: "))
+     main_choice = int(input("Your Choice: "))
 
-     if main_opt == 1:
+     if main_choice == 1:
          #assuming file format : lastname,firstname,phonenumber,mail
          with open( "assets/rakshins.csv", 'r' ) as source:
 
@@ -60,8 +60,8 @@ while True:
                 print (str(i) + " vcf cards generated.")
 
 
-     if main_opt == 2: 
-         print('Okay, see you soon!')
+     if main_choice == 2: 
+         print('Alright, see you soon!')
          break          
 
 def main(args):
