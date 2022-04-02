@@ -37,20 +37,20 @@ while True:
 
             
 
-                if type==2:
+                #if type==2:
 
-                    for row in reader:
+                    #for row in reader:
                     #write in the "ALL.vcf" file.
-                        allvcf = open('ALL.vcf', 'w')
-                        allvcf.write( 'BEGIN:VCARD' + "\n")
-                        allvcf.write( 'VERSION:2.1' + "\n")
-                        allvcf.write( 'N:' + row[0] + ';' + row[1] + "\n")
-                        allvcf.write( 'FN:' + "Bootcamp " + row[1] + ' ' + row[0] + "\n")
-                        allvcf.write( 'ORG:' + 'Bootcamp' + "\n")
-                        allvcf.write( 'TEL;CELL:' + row[2] + "\n")
-                        allvcf.write( 'EMAIL:' + row[3] + "\n")
-                        allvcf.write( 'END:VCARD' + "\n")
-                        allvcf.write( "\n")
+                       # allvcf = open('ALL.vcf', 'w')
+                       # allvcf.write( 'BEGIN:VCARD' + "\n")
+                        #allvcf.write( 'VERSION:2.1' + "\n")
+                        #allvcf.write( 'N:' + row[0] + ';' + row[1] + "\n")
+                        #allvcf.write( 'FN:' + "Bootcamp " + row[1] + ' ' + row[0] + "\n")
+                      #  allvcf.write( 'ORG:' + 'Bootcamp' + "\n")
+                       # allvcf.write( 'TEL;CELL:' + row[2] + "\n")
+                      #  allvcf.write( 'EMAIL:' + row[3] + "\n")
+                        #allvcf.write( 'END:VCARD' + "\n")
+                        #allvcf.write( "\n")
 
                 
 
