@@ -1,8 +1,6 @@
 import csv
 import sys
 
-
-
 while True:
      print("Would you like to:\n1. Generate Vcards\n2. End Program")
      main_choice = int(input("Your Choice: "))
@@ -51,8 +49,6 @@ while True:
                       #  allvcf.write( 'EMAIL:' + row[3] + "\n")
                         #allvcf.write( 'END:VCARD' + "\n")
                         #allvcf.write( "\n")
-
-                
 
                 i += 1
 
