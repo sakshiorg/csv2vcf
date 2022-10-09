@@ -31,10 +31,6 @@ while True:
                         vcf.write( "\n")
                         vcf.close()
                 
-                
-
-            
-
                 #if type==2:
 
                     #for row in reader:
