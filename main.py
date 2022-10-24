@@ -1,8 +1,8 @@
-import csv
-import sys
+import csv, sys
 
 #assuming file format : lastname,firstname,phonenumber,mail
 with open( "assets/rakshins.csv", 'r' ) as source:
+     print("Starting Conversion")
      reader = csv.reader(source)
      i = 0
 
